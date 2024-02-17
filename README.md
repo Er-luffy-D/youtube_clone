@@ -1,5 +1,5 @@
 # HOSTED ON : https://youtube-clone0710.netlify.app/ 
-# YouTube Clone with HTML and CSS
+# YouTube UI Clone with HTML and CSS
 
 This project is a simple YouTube clone created using only HTML and CSS. It serves as a hands-on exercise for front-end development.
 
