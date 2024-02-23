@@ -102,7 +102,7 @@
     flex-wrap: wrap;
     /* background-color: wheat; */
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 .slide a{
     margin: 10px 0px;
@@ -114,7 +114,7 @@
     background-color: rgb(65, 62, 62);
 }
 .slide a:hover{
-    transform: scaleX(1.2);
+    transform: scaleX(1.1);
     transition: .5s ;
     background-color: white;
     color: black;
@@ -245,6 +245,130 @@ img{
     font-size: 1.1rem;
     
 }
+
+#footer{
+    display: flex;
+    height: 12rem;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.links{
+    margin-left: 20px;
+    margin-right: 5%;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.links i{
+    text-align: left;
+    font-size: 2.4rem;
+    position: relative;
+    top:0;
+    color: rgb(101, 28, 101);
+    left: 100px;
+}
+.links span{
+    margin-top: 1%;
+    color: black;
+    margin-left: 10px;
+    text-align: right;
+    opacity: 0;
+}
+#footer:hover .links i{
+    transition: all .8s;
+    left: 0;
+    font-size: 1.7rem;
+}
+#footer:hover .links span{
+    transition: all .8s;
+    opacity: 1;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 18%;
+    text-align: center;
+}
+.info p{
+    position: relative;
+    top:30px;
+    transform: scale(1.5);
+}
+.info span{
+    display: block;
+    position: relative;
+    transform: scale(1.5);
+    /* opacity: 0; */
+}
+.inf1{
+    bottom: 30px;
+    left: 69px;
+    opacity:0;
+}
+.inf2{
+    bottom: 56px;
+    left: 69px;
+    opacity:0;
+}
+.inf3{
+    bottom: 85px;
+    left: 69px;
+    opacity:0;
+}
+.inf4{
+    bottom: 111px;
+    left: 69px;
+    opacity:0;
+}
+#footer:hover .info p{
+    
+    top:0;
+    transform: scale(1);
+    transition: all 1s;
+}
+#footer:hover .inf1{
+    bottom: 0px;
+    left: 0px;
+    opacity:1;
+    transform: scale(1);
+    transition: all 2s;
+}
+
+#footer:hover .inf2{
+    bottom: 0px;
+    left: 0px;
+    opacity:1;
+    transform: scale(1);
+    transition: all 2s;
+}
+#footer:hover .inf3{
+    bottom: 0px;
+    left: 0px;
+    opacity:1;
+    transform: scale(1);
+    transition: all 2s;
+}
+#footer:hover .inf4{
+    bottom: 0px;
+    left: 0px;
+    opacity:1;
+    transform: scale(1);
+    transition: all 2s;
+}
+#footer:hover .info span{
+    transition: all 1s;
+
+}
+
+
+
+
 
 
 
